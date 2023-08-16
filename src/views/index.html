@@ -3,9 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>eCommerce Site</title>
+    <title>Pizza Palooza</title>
+    <link rel="stylesheet" href="/css/mainStyles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/be2f25d2d7.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Index page of the eCommerce Site</h1>
+    <nav class="navbar">
+      <div class="navbar__home">Home</div>
+      <div class="navbar__languageOptions">English | Español</div>
+      <div class="navbar__shoppingCart"><i class="fa-sharp fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i></div>
+      <div class="navbar__burgerMenu"><i class="fa-sharp fa-solid fa-bars fa-xl" style="color: #ffffff;"></i></div>
+    </nav>
+    <header>
+      <div class="header__logo">Pizza Palooza</div>
+      <div class="header__otherText">La fiesta de la pizza hecha realidad</div>
+    </header>
+    <main>
+      <img class="main__image" src="/img/pizza-index.jpg" alt="">
+      <div class="main__bgFotoText">El Menú: pizzas, empanadas y postres artesanales</div>
+      <div class="main__buttonLink main__buttonLink--pizza">Pizzas</div>
+      <div class="main__buttonLink main__buttonLink--empanada">Empanadas</div>
+      <div class="main__buttonLink main__buttonLink--postre">Postres</div>
+    </main>
+    <footer>
+      <div class="footer__navLinks">Home | Menú | Nosotros | Contacto</div>
+      <div class="footer__otherText">
+        <p>Desarrollo por <a href="">JMFC</a> para el portfolio de trabajos</p>  
+      </div>
+    </footer>
   </body>
 </html>

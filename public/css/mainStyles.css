@@ -1,0 +1,194 @@
+/* 
+Logo font-family options:
+font-family: 'Cormorant Garamond', serif;
+Avilable styles: 700 italic
+
+All other texts:
+font-family: 'PT Serif', serif;
+Available styles: 
+regular 400
+regular 400 italic
+bold 700
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+/* General styles for desktop devices */
+
+.navbar {
+    background-color: #1D1A1A;
+    display: flex;
+    align-items: center;
+    height: 54px;
+    font-size: 14px;
+}
+
+.navbar__burgerMenu {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding-right: 21px;
+    padding-left: 21px;
+}
+
+.navbar__shoppingCart {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.navbar__languageOptions {
+    display: flex;
+    justify-content: flex-end;
+    color: #FFF;
+    font-size: 12px;
+    width: 151px;
+    padding-right: 19px;
+}
+
+.navbar__home {
+    color: #FFF;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    flex-grow: 1;       /* Allow to grow and shrink */
+}
+
+.header__logo {
+    height: 68px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #1D1A1A;
+}
+
+.header__otherText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #1D1A1A;
+    margin-bottom: 27px;
+}
+
+/*
+.main {
+    height: 387px;
+    background-image: url('/img/pizza-index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+main {
+    position: relative;
+}
+
+.main__image {
+    max-width: 100%;
+    height: auto;
+}
+
+.main__bgFotoText {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+    height: 29px;
+    width: 319px;
+    color: #000;
+    display: flex;
+    font-weight: 900;
+    background-color: #FFF;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+    padding-left: 10px;
+    border-radius: 10px;
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+/*
+.main__buttonLinks {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFF;
+    color: #000;
+}
+*/
+
+.main__buttonLink {
+    font-size: 12px;
+    height: 27px;
+    width: 154px;
+    position: absolute;
+    left: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFF;
+    color: #000;
+    font-weight: 700;
+    padding-left: 10px;
+    border-radius: 10px;
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.main__buttonLink--pizza {
+    top: 100px;
+}
+
+.main__buttonLink--empanada {
+    top: 130px;
+}
+
+.main__buttonLink--postre {
+    top: 160px;
+}
+
+.footer__navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    color: #1D1A1A;
+    font-size: 14px;
+}
+
+.footer__otherText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D1A1A;
+    font-size: 11px;
+}
+
+
+
+
+/* Media query for mobile devices with a viewport of less than or equal to 375px */
+@media (width <= 375px) {
+    .navbar {
+    }
+}
+
+/* Media query for tablets with a viewport of more than 375px and less than or equal to 744px */
+@media (width > 376px) and (width <= 744px) {
+    .navbar {
+    }
+}
