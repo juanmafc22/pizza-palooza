@@ -1,4 +1,4 @@
-/* 
+/*der 
 Logo font-family options:
 font-family: 'Cormorant Garamond', serif;
 Avilable styles: 700 italic
@@ -20,6 +20,16 @@ bold 700
 
 /* General styles for desktop devices */
 
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100vw;
+}
 .navbar {
     background-color: #1D1A1A;
     display: flex;
@@ -94,8 +104,18 @@ main {
     position: relative;
 }
 
+.menuSection {
+    position: relative;
+    margin-bottom: 27px;
+}
+
+.menuSection--ultimaFoto {
+    margin-bottom: 0px;
+}
+
 .main__image {
     max-width: 100%;
+    /* max-height: 387px; */
     height: auto;
 }
 
@@ -104,7 +124,7 @@ main {
     top: 19px;
     left: 15px;
     height: 29px;
-    width: 319px;
+    width: 55%;
     color: #000;
     display: flex;
     font-weight: 900;
@@ -114,7 +134,7 @@ main {
     font-size: 12px;
     padding-left: 10px;
     border-radius: 10px;
-    opacity: 0.85;
+    opacity: 0.875;
     cursor: pointer;
 }
 
@@ -130,13 +150,12 @@ main {
     color: #000;
 }
 */
-
 .main__buttonLink {
     font-size: 12px;
     height: 27px;
-    width: 154px;
+    width: auto;
     position: absolute;
-    left: 205px;
+    left: 200px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -144,11 +163,13 @@ main {
     color: #000;
     font-weight: 700;
     padding-left: 10px;
+    padding-right: 10px;
     border-radius: 10px;
-    opacity: 0.85;
+    opacity: 0.875;
     cursor: pointer;
 }
 
+/* Home page buttons */
 .main__buttonLink--pizza {
     top: 100px;
 }
@@ -161,6 +182,22 @@ main {
     top: 160px;
 }
 
+/* Menu section buttons */
+.menuSection__Btn--1 {
+    top: 100px;
+}
+
+.menuSection__Btn--2 {
+    top: 130px;
+}
+
+.menuSection__Btn--3 {
+    top: 160px;
+}
+
+.menuSection__Btn--4 {
+    top: 190px;
+}
 .footer__navLinks {
     display: flex;
     justify-content: center;

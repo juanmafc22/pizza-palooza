@@ -3,13 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>shop page</title>
+    <title>Pizza Palooza - Menú</title>
+    <link rel="stylesheet" href="/css/mainStyles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/be2f25d2d7.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Shop page of the eCommerce Site</h1>
-    <form action="/shop/received" method="POST">
-      <input type="text" name="productItem" />
-      <input type="submit" value="Submit" />
-    </form>
+    <header>
+      <nav class="navbar"
+        <div class="navbar__home">Home</div>
+        <div class="navbar__languageOptions">English | Español</div>
+        <div class="navbar__shoppingCart"><i class="fa-sharp fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i></div>
+        <div class="navbar__burgerMenu"><i class="fa-sharp fa-solid fa-bars fa-xl" style="color: #ffffff;"></i></div>
+      </nav>
+      <div class="header__logo">Pizza Palooza</div>
+      <div class="header__otherText">Inico > El Menú</div>
+    </header>
+    <main>
+      <!-- Sección de las pizzas -->
+      <section class="menuSection">
+        <img class="main__image" src="/img/pizza-index.jpg" alt="">
+        <div class="main__bgFotoText">Pizzas</div>
+        <div class="main__buttonLink menuSection__Btn--1">Margherita</div>
+        <div class="main__buttonLink menuSection__Btn--2">Provolone</div>
+        <div class="main__buttonLink menuSection__Btn--3 ">Jamón con morrones</div>
+        <div class="main__buttonLink menuSection__Btn--4 ">Muzzarella</div>
+      </section>
+      <!-- Sección de las empanadas -->
+      <section class="menuSection">
+        <img class="main__image" src="/img/empanada-index.jpg" alt="">
+        <div class="main__bgFotoText">Empanadas</div>
+        <div class="main__buttonLink menuSection__Btn--1">Carne cortada al cuchillo</div>
+        <div class="main__buttonLink menuSection__Btn--2">Jamón y queso</div>
+        <div class="main__buttonLink menuSection__Btn--3 ">Pollo</div>
+        <div class="main__buttonLink menuSection__Btn--4 ">Verduras asadas</div>
+      </section>
+      <!-- Sección de los postres -->
+      <section class="menuSection menuSection--ultimaFoto">
+        <img class="main__image" src="/img/flan-index.jpg" alt="">
+        <div class="main__bgFotoText">Postres</div>
+        <div class="main__buttonLink menuSection__Btn--1">Flan casero</div>
+        <div class="main__buttonLink menuSection__Btn--2">Queso y dulce</div>
+        <div class="main__buttonLink menuSection__Btn--3 ">Sopa inglesa</div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__navLinks">Home | Menú | Nosotros | Contacto</div>
+      <div class="footer__otherText">
+        <p>Desarrollo por <a href="">JMFC</a> para el portfolio de trabajos</p>  
+      </div>
+    </footer>
   </body>
 </html>
