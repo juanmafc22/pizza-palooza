@@ -5,6 +5,10 @@ const shopController = {
     res.sendFile(path.join(__dirname, "../views/shop/index.html"));
   },
 
+  pizza: (req, res, next) => {
+    res.sendFile(path.join(__dirname, "../views/shop/pizza.html"));
+  },
+
   // get request to redirect from the form
   answer: (req, res, next) => {
     res.sendFile(path.join(__dirname, "../views/shop/received.html"));

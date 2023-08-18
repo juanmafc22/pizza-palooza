@@ -125,7 +125,7 @@ main {
     left: 15px;
     height: 29px;
     width: 55%;
-    color: #000;
+    color: #1D1A1A;
     display: flex;
     font-weight: 900;
     background-color: #FFF;
@@ -136,6 +136,12 @@ main {
     border-radius: 10px;
     opacity: 0.875;
     cursor: pointer;
+}
+
+.main__bgFotoText:hover {
+    opacity: 1;
+    color: #FFF;
+    background-color: #1D1A1A;
 }
 
 /*
@@ -167,6 +173,12 @@ main {
     border-radius: 10px;
     opacity: 0.875;
     cursor: pointer;
+}
+
+.main__buttonLink:hover {
+    opacity: 1;
+    color: #FFF;
+    background-color: #1D1A1A;
 }
 
 /* Home page buttons */
