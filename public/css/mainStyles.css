@@ -31,7 +31,7 @@ header {
     width: 100vw;
 }
 .navbar {
-    background-color: #1D1A1A;
+    background-color: #000;
     display: flex;
     align-items: center;
     height: 54px;
@@ -86,8 +86,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
-    color: #1D1A1A;
+    font-size: 21px;
+    color: #000;
     margin-bottom: 27px;
 }
 
@@ -109,6 +109,11 @@ main {
     margin-bottom: 27px;
 }
 
+.main__individualItemFoto {
+    position: relative;
+    margin-bottom: 11px;
+}
+
 .menuSection--ultimaFoto {
     margin-bottom: 0px;
 }
@@ -124,24 +129,43 @@ main {
     top: 19px;
     left: 15px;
     height: 29px;
-    width: 55%;
-    color: #1D1A1A;
+    width: auto;
+    color: #FFF;
+    background-color: #1D1A1A;
     display: flex;
     font-weight: 900;
-    background-color: #FFF;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*
+.main__bgFotoText--dark {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+    height: 29px;
+    width: 55%;
+    color: #FFF;
+    display: flex;
+    font-weight: 900;
+    background-color: #1D1A1A;
     align-items: center;
     justify-content: flex-start;
     font-size: 12px;
     padding-left: 10px;
     border-radius: 10px;
     opacity: 0.875;
-    cursor: pointer;
 }
+*/
 
 .main__bgFotoText:hover {
-    opacity: 1;
     color: #FFF;
-    background-color: #1D1A1A;
+    background-color: #1D1A1A95;
 }
 
 /*
@@ -157,7 +181,7 @@ main {
 }
 */
 .main__buttonLink {
-    font-size: 12px;
+    font-size: 13px;
     height: 27px;
     width: auto;
     position: absolute;
@@ -165,20 +189,18 @@ main {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: #FFF;
     color: #000;
+    background-color: #FFFFFF;
     font-weight: 700;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    opacity: 0.875;
     cursor: pointer;
 }
 
 .main__buttonLink:hover {
-    opacity: 1;
-    color: #FFF;
-    background-color: #1D1A1A;
+    background-color: #FFFFFF95;
+    color: #000;
 }
 
 /* Home page buttons */
@@ -210,6 +232,72 @@ main {
 .menuSection__Btn--4 {
     top: 190px;
 }
+
+.main__pizzaPrice {
+    font-size: 31px;
+    height: 45px;
+    width: auto;
+    position: absolute;
+    left: 241px;
+    top: 190px;
+    /*
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    */
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    opacity: 0.775;
+}
+
+.main__cartButtonsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__cartButtons {
+    border-radius: 5px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #1D1A1A;
+    padding: 5px 10px; 
+    font-size: 13px;
+}
+
+.main__cartPrice {
+    font-size: 21px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #1D1A1A;
+}
+
+.main__cartButtons--addItem {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main__cartButtons--addItem:hover {
+    background-color: #1D1A1A95;
+}
+
+.main__cartButtons--number {
+    margin-left: 1px;
+}
+
+.main__cartButtons--calculate {
+    margin-left: 1px;
+    cursor: pointer;
+}
+.main__cartButtons--calculate:hover {
+    background-color: #1D1A1A95;
+}
+
 .footer__navLinks {
     display: flex;
     justify-content: center;

@@ -1,4 +1,4 @@
-// - - - - - | requires.
+// - - - - | requires.
 const path = require("path");
 const indexRouter = require("./routers/index.router");
 const shopRouter = require("./routers/shop.router");
