@@ -150,7 +150,7 @@ header {
     
     .main__bgFotoText:hover {
         color: #000;
-        transition: ease-out 1s;
+        transition: ease-out 0.5s;
         border-radius: 7px 0px 7px 7px;
         background-color: #999;
     }
@@ -174,7 +174,7 @@ header {
     
     .main__buttonLink:hover {
         color: #000;
-        transition: ease-out 1s;
+        transition: ease-out 0.5s;
         border-radius: 7px 0px 7px 7px;
         background-color: #999;
     }
@@ -254,7 +254,7 @@ header {
     
     .main__cartButtons--addItem:hover {
         color: #000;
-        transition: ease-out 1s;
+        transition: ease-out 0.5s;
         border-radius: 7px 0px 7px 7px;
         background-color: #999;
     }
@@ -269,7 +269,7 @@ header {
     }
     .main__cartButtons--calculate:hover {
         color: #000;
-        transition: ease-out 1s;
+        transition: ease-out 0.5s;
         border-radius: 7px 0px 7px 7px;
         background-color: #999;
     }
