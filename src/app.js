@@ -1,7 +1,7 @@
 // - - - - | requires.
 const path = require("path");
 const indexRouter = require("./routers/index.router");
-const shopRouter = require("./routers/shop.router");
+const menuRouter = require("./routers/menu.router");
 const adminRouter = require("./routers/admin.router");
 
 // - - - - - | express()
@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // - - - - - | route system
 app.use("/", indexRouter);
-app.use("/shop", shopRouter);
+app.use("/menu", menuRouter);
 app.use("/admin", adminRouter);
 
 // - - - - - | 404 error system if any

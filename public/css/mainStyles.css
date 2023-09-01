@@ -31,18 +31,22 @@ header {
     width: 100vw;
 }
 
+.navbar {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    height: 54px;
+    font-size: 14px;
+}
+
+main {
+    position: relative;
+}
 
 
 /* Media query for mobile devices with a viewport of less than or equal to 375px */
 @media (width <= 375px) {
 
-    .navbar {
-        background-color: #000;
-        display: flex;
-        align-items: center;
-        height: 54px;
-        font-size: 14px;
-    }
     
     .navbar__burgerMenu {
         display: flex;
@@ -92,23 +96,12 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 21px;
+        font-size: 19px;
         color: #000;
         margin-bottom: 27px;
     }
     
-    /*
-    .main {
-        height: 387px;
-        background-image: url('/img/pizza-index.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    */
     
-    main {
-        position: relative;
-    }
     
     .menuSection {
         position: relative;
@@ -151,7 +144,7 @@ header {
     .main__bgFotoText:hover {
         color: #000;
         transition: ease-out 0.5s;
-        border-radius: 7px 0px 7px 7px;
+        border-radius: 10px 0px 10px 10px;
         background-color: #999;
     }
     
@@ -175,7 +168,7 @@ header {
     .main__buttonLink:hover {
         color: #000;
         transition: ease-out 0.5s;
-        border-radius: 7px 0px 7px 7px;
+        border-radius: 10px 0px 10px 10px;
         background-color: #999;
     }
     
@@ -255,7 +248,7 @@ header {
     .main__cartButtons--addItem:hover {
         color: #000;
         transition: ease-out 0.5s;
-        border-radius: 7px 0px 7px 7px;
+        border-radius: 10px 0px 10px 10px;
         background-color: #999;
     }
     
@@ -270,7 +263,7 @@ header {
     .main__cartButtons--calculate:hover {
         color: #000;
         transition: ease-out 0.5s;
-        border-radius: 7px 0px 7px 7px;
+        border-radius: 10px 0px 10px 10px;
         background-color: #999;
     }
     
@@ -290,6 +283,50 @@ header {
         color: #1D1A1A;
         font-size: 11px;
     }
+
+    .main__formDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 17px;
+    }
+
+    .main__checkoutForm {
+    }
+
+    .main__inputText {
+        width: 273px;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        border: 1px solid #404040;
+    }
+
+    .main__formDivAddress {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 17px;
+    }
+
+    .main__inputTextAddress {
+        width: 131px;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        border: 1px solid #404040;
+    }
+
+    .main__formSelect {
+        width: 273px;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        border: 1px solid #404040;
+    }
+
 }
 
 /* Media query for tablets with a viewport of more than 375px and less than or equal to 744px */
