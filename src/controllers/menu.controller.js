@@ -24,6 +24,11 @@ const menuController = {
   // get request the checkout page
   checkout: (req, res, next) => {
     res.sendFile(path.join(__dirname, "../views/menu/checkout.html"));
+  },
+
+  // Add a new method for the category route
+  category: (req, res, next) => {
+    res.sendFile(path.join(__dirname, "../views/menu/category.html"));
   }
 };
 

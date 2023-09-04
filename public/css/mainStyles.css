@@ -159,6 +159,33 @@ main {
         border-radius: 10px 0px 10px 10px;
         background-color: #999;
     }
+
+    .main__productTitleLink {
+        position: absolute;
+        top: 19px;
+        left: 15px;
+        height: 29px;
+        width: auto;
+        color: #000;
+        background-color: #FFF;
+        display: flex;
+        font-weight: 900;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 17px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+    
+    .main__productTitleLink:hover {
+        color: #000;
+        transition: ease-out 0.5s;
+        border-radius: 10px 0px 10px 10px;
+        background-color: #999;
+    }
+
+
     
     .main__buttonLink {
         font-size: 13px;
