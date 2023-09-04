@@ -22,6 +22,11 @@
       </nav>
       <div class="header__logo">Pizza Palooza</div>
       <div class="header__otherText">Meter todo en el horno y pagar!</div>
+      <div class="header__cardsIcons">
+        <i class="fa-brands fa-cc-amex header__cardsPadding"></i>
+        <i class="fa-brands fa-cc-visa header__cardsPadding"></i>
+        <i class="fa-brands fa-cc-mastercard header__cardsPadding"></i>
+      </div>
     </header>
     <main>
       <!-- The checkout form begins here  -->
@@ -48,8 +53,30 @@
             <option value="debito">Debito</option>
           </select>
         </div>
-
+        <div class="main__formDiv">
+          <input type="text" placeholder="Nombre en la tarjeta" class="main__inputText">
+        </div>
+        <div class="main__formDivAddress">
+          <div>
+            <input type="text" placeholder="Numero de la tarjeta" class="main__inputCardNum">
+          </div>
+          <div>
+            <input type="text" placeholder="Código" class="main__inputCardCode">
+          </div>
+        </div>
+        <div class="main__formDivAddress">
+          <div>
+            <input type="text" placeholder="MM/AAAA" class="main__inputCardCode">
+          </div>
+          <div>
+            <input type="submit" value="Confirmar el pedido" class="main__inputCheckout">
+          </div>
+        </div>
       </form>
+    <section class="main__finalPriceSection">
+      <h2 class="main__cartFinalPrice">Total: $25000</h2>
+      <p class="main__cartBackText"><a href="">Ir para atrás y corregir el pedido</a></p>
+    </section>
     </main>
     <footer>
       <div class="footer__navLinks">Home | Menú | Nosotros | Contacto</div>

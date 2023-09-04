@@ -38,7 +38,7 @@ header {
     height: 54px;
     font-size: 14px;
 }
-
+    
 main {
     position: relative;
 }
@@ -100,8 +100,20 @@ main {
         color: #000;
         margin-bottom: 27px;
     }
-    
-    
+
+    .header__cardsIcons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 31px;
+        color: #000;
+        margin-bottom: 15px;
+    }
+
+    .header__cardsPadding {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
     
     .menuSection {
         position: relative;
@@ -325,7 +337,63 @@ main {
         font-size: 12px;
         border-radius: 5px;
         border: 1px solid #404040;
+        margin-bottom: 17px;
     }
+
+    .main__inputCardNum {
+        width: 171px;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        border: 1px solid #404040;
+    }
+
+    .main__inputCardCode {
+        width: 91px;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        border: 1px solid #404040;
+    }
+
+    .main__inputCheckout {
+        width: 171px;
+        font-weight: 700;
+        color: #FFF;
+        background-color: #1D1A1A;
+        padding: 5px 10px;
+        font-size: 13px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .main__inputCheckout:hover {
+        color: #000;
+        transition: ease-out 0.5s;
+        border-radius: 10px 0px 10px 10px;
+        background-color: #999;
+    }
+
+    .main__finalPriceSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 17px;
+    }
+
+    .main__cartFinalPrice {
+        font-size: 21px;
+        font-weight: 700;
+        margin-right: 10px;
+        color: #1D1A1A;
+    }
+
+    .main__cartBackText {
+        font-size: 14px;
+        color: #1D1A1A;
+    }
+    
 
 }
 
