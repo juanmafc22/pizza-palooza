@@ -29,6 +29,11 @@ const menuController = {
   // Add a new method for the category route
   category: (req, res, next) => {
     res.sendFile(path.join(__dirname, "../views/menu/category.html"));
+  },
+
+  // get request for the shopping cart
+  cart: (req, res, next) => {
+    res.sendFile(path.join(__dirname, "../views/menu/cart.html"));
   }
 };
 

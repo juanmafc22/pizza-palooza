@@ -17,8 +17,13 @@ router.get("/checkout", menuController.checkout);
 // empanadas, pizzas or postres
 router.get("/category/", menuController.category);
 
+// The route for the shopping cart
+router.get("/cart", menuController.cart);
+
 // The / route is the same as /menu
 router.get("/", menuController.index);
 router.get("/menu", menuController.index);
+
+
 
 module.exports = router;
