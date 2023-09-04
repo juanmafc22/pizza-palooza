@@ -323,6 +323,14 @@ main {
         margin-bottom: 17px;
     }
 
+    .main__formContactSend {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 17px;
+    }
+
     .main__inputTextAddress {
         width: 131px;
         padding: 5px 10px;
@@ -338,6 +346,14 @@ main {
         border-radius: 5px;
         border: 1px solid #404040;
         margin-bottom: 17px;
+    }
+
+    .main__formTextArea {
+        width: 273px;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        border: 1px solid #404040;
     }
 
     .main__inputCardNum {
