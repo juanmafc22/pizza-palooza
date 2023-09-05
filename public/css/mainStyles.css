@@ -436,6 +436,29 @@ main {
         font-size: 14px;
         color: #1D1A1A;
     }
+
+    /* Styles for the shopping cart page in mobile devices */ 
+
+    .main__cartArticle {
+        display: flex;
+    }
+
+    .main__cartArticle--picture {
+        background-color: red;
+        width: 103px;
+        height: 103px;
+        margin-bottom: 17px;
+    }
+
+    .main__cartArticle--otherInfo {
+        background-color: blue  ;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 17px;
+    }
     
 
 }
